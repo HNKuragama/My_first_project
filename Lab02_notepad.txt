@@ -1,0 +1,78 @@
+#include <stdio.h>
+
+int main(){
+	printf("  *  \n * * \n*   *\n");
+	printf(" * * \n*   *\n");
+	printf(" * * \n*   *\n");
+	printf(" * * \n  *  \n");
+	return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int main(){
+	float height1;
+	float height2;
+	float height3;
+	float avg_new;
+	float avg_old;
+	float total_new;
+	float total_old;
+	float total_height_dif;
+	float missing_heights;
+
+	printf("Enter height1 : ");
+	scanf("%f", &height1);
+	printf("\nEnter height2 : ");
+	scanf("%f", &height2);
+	printf("\nEnter height1 : ");
+	scanf("%f", &height2);
+
+	total_new = height1 + height2 + height3;
+	avg_new = total_new / 3;
+	printf("\nNew average height : %f ", avg_new);
+
+	printf("\nEnter previous average : );
+	scanf("%f", &avg_old);
+	
+	total_old = avg_old * 5;
+	total_height_dif = total_old - total_new;
+	missing_heights = total height_dif /2;
+
+	printf("\nMissing heights : %f and %f ", missing_heights, missing_heights);
+	
+	return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int main(){
+	float perimeter;
+	float length;
+	float width;
+
+	printf("Enter perimeter of the rectangle : ");
+	scanf("%f", &perimeter);
+
+	length = 2/7 * perimeter;
+	width = 3/4 * length;
+
+	printf("Length = %f \n", length);
+	printf("Width = %f \n", width);
+
+	return 0;
+}
+	
+
+	
+	
+	
+
+	
+	
